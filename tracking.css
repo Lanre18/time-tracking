@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.child{
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.sub{
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+   color: hsl(236, 100%, 87%); 
+}
+#white{
+    color: white;
+}
+
+.main{
+    width: 80%; 
+    /* height: 60vh; */
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    /* border:   2px solid white; */
+    
+}
+ 
+.content1{
+    width: 20%;
+    height:60vh;
+}
+ 
+.name{
+    background-color: hsl(235, 45%, 61%);
+    width: 100%;
+    height:40vh ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; 
+    align-items: center;
+    /* background-color:  hsl(236, 100%, 87%);-font */
+    
+}
+.pad1{
+    width: 85%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;  
+      /* align-items: center;  */
+     flex-direction: column;
+}  
+
+.picture img{
+    width: 50px;
+}
+
+.time{
+    background-color: hsl(235, 46%, 20%);
+    width: 100%;
+    height:20vh ;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+.pad2{
+    width: 85%;
+    height: 16vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column; 
+
+
+}
+ .content2{
+    width: 20%;
+    height:60vh ;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; 
+
+}
+
+
+ .work{
+    width:100%;
+    height: 32vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+    
+
+} 
+/* padding-compulsory */
+.pad{
+    width: 85%;
+    height: 22vh;
+    display: flex;
+    justify-content: space-around; 
+    /* align-items: center; */
+    flex-direction: column;
+}   
+.wp{
+    height: 27vh;
+    width: 100%;
+    background-color: hsl(15, 100%, 70%);
+    position: relative;
+    
+    border-radius: 10px;
+}
+
+.wp img{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+    
+}
+.wt{
+    width: 100%;
+    height:24vh;
+    background-color:hsl(235, 46%, 20%);
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    /* display: flex;
+    align-items: flex-end; */
+    /* the line below is compulsory so that it will be in the centre */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ .first{
+    width: 100%;
+    height: 100%; 
+    display: flex; 
+    justify-content: space-evenly;
+    flex-direction: column;
+} 
+  .second{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+} 
+.third,.second{
+    font-size: 10px;
+}
+.fourth{
+    font-size: 8px;
+}
+
+.exercise{
+    width: 100%;
+    height: 30vh;
+
+}
+.ep{
+    height: 27vh;
+    width: 100%;
+    background-color:  hsl(145, 58%, 55%);
+    position: relative;
+    
+    border-radius: 10px;
+    border-radius: 10px;
+}
+.ep img{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+}
+.et{
+    width: 100%;
+    height:24vh;
+    background-color:hsl(235, 46%, 20%);
+   
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}   
+.content3{
+    width: 20%;
+    height:60vh ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+
+}
+.play{
+    width:100%;
+    height: 32vh;
+
+}
+.pp{
+    height: 27vh;
+    width: 100%;
+    background-color:hsl(195, 74%, 62%);
+    position: relative;
+    border-radius: 10px;
+}
+.pp img{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+}
+.pt{
+    width: 100%;
+    height:24vh;
+    background-color:hsl(235, 46%, 20%);
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.social{
+    width:100%;
+    height: 30vh;
+
+}
+.sp{
+    height: 27vh;
+    width: 100%;
+    background-color:hsl(264, 64%, 52%);
+    position: relative;
+    border-radius: 10px;
+}
+.sp img{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+}
+.st{
+    width: 100%;
+    height:24vh;
+    background-color:hsl(235, 46%, 20%);
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.content4{
+    width: 20%;
+    height:60vh ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+
+}
+.study{
+    width:100%;
+    height: 32vh;
+
+}
+.up{
+    height: 27vh;
+    width: 100%;
+    background-color:hsl(348, 100%, 68%);
+    position: relative;
+    border-radius: 10px;
+}
+.up img{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+}
+.ut{
+    width: 100%;
+    height:24vh;
+    background-color:hsl(235, 46%, 20%);
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.self{
+    width:100%;
+    height: 30vh;
+
+}
+.lp{
+    height: 27vh;
+    width: 100%;
+    background-color:hsl(43, 84%, 65%);
+    position: relative;
+    border-radius: 10px;
+}
+.lp img{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+}
+.lt{
+    width: 100%;
+    height:24vh;
+    background-color:hsl(235, 46%, 20%);
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+@media (max-width: 860px)   {
+    .main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .content1, .content2, .content3, .content4{
+        width: 100%;
+    }
+    .pad2{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .third{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+    }
+    .pad{
+        flex-direction: row;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
